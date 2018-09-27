@@ -5,11 +5,11 @@ import Navbar from './Navbar'
 import Hamburger from './Hamburger'
 
 window.gm_authFailure=()=>{ 
- alert('OOPS! An Error occured while fetching GoogleMaps API! Please try again later.');
+ alert('Oh NO! An Error occured while fetching GoogleMaps API! Try again later.');
 };
 
 //variable to handle api failure
-const fourSquareFailMsg = 'OOPS! An Error occured while fetching data from FourSquare API! Please try again later.';
+const fourSquareFailMsg = 'Oh NO! An Error occured while fetching data from FourSquare API! Try again later.';
 
 class App extends Component {
   state = {
@@ -43,7 +43,7 @@ class App extends Component {
       client_secret: 'JV4ESAR4GZDCTRJ5FGAXNRWB2K4UTMMB1E3VIZQ4U10YI4XR',
       query: 'stores',
       near: 'Nashville',
-      v: '20180925' //YYYYDDMM
+      v: '20180927' //YYYYDDMM
     }
 
     //installed axios- npm install axios //axios is similar to fetch
