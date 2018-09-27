@@ -52,7 +52,7 @@ class Navbar extends Component {
 			            <div id='navbar' aria-role='navigation'>
 			            <input type='search' id='myInput'
 			            onChange={this.handleSearch}
-			            placeholder="Search for Restaurants.."
+			            placeholder="Search for Stores.."
 			            />
 			            <ul id='myUL' aria-role='list'>
 					                        { 
