@@ -13,6 +13,12 @@ Use of third-party libraries and APIs is a standard and acceptable practice that
 Asynchronous programming is important to understand in today's market
 
 ## Installation Instructions
-1. Download repo
-2. npm install
-3. npm start
+To run this app follow these instructions:
+
+1. Open a terminal window, if already not opened
+2. cd into the directory
+3. Input npm install into terminal
+4. Input npm start into terminal
+5. The program should automatically open on localhost:5000 in the browser, if not type in localhost:5000 in the browser
+
+
