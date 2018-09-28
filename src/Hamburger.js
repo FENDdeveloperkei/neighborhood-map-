@@ -12,7 +12,7 @@ class Hamburger extends Component {
 			<div className='header'>
 			<div className='ham'
 			onClick={this.showHide}
-			tabindex='1'
+			tabIndex='0'
 			onKeyPress={this.showHide}>☰</div>
 			</div>
 		)
