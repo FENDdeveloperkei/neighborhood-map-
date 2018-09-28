@@ -54,7 +54,7 @@ class Navbar extends Component {
 			            onChange={this.handleSearch}
 			            placeholder="Search for Stores.."
 			            />
-			            <ul id='myUL' aria-role='list'>
+			            <ul id='myUL' role='list'>
 					                        { 
 						                              this.props.venues.map(eachVenue=>{
 							                                          	return (
